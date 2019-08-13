@@ -11,7 +11,7 @@ int main()
 	printf("%s\n", "Los números primos menores a él, son: ");
 
 	int y;
-	for(y = t; y >= 1; y--)
+	for(y = t -1; y >= 1; y--)
 		if(esPrimo(y))
 			printf("%i\n", y);
 }
