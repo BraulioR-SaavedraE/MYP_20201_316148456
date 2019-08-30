@@ -4,6 +4,9 @@
 int* quickSort(int arreglo[], int a, int b);
 void intercambia(int* a, int* b);
 
+/* El método main lee enteros de la entrada estándar y hace que se desplieguen
+ * n números ordenados, donde n es el primer entero de la entrada-
+ */
 int main()
 {
     int numero, k;
@@ -22,6 +25,7 @@ int main()
         printf("%d ", arreglo[i]);
 }
 
+/* Método de ordenamiento de enteros.*/
 int* quickSort(int* arreglo, int a, int b) 
 {
         if(b <= a)
@@ -50,6 +54,7 @@ int* quickSort(int* arreglo, int a, int b)
         quickSort(arreglo, i + 1, b);
 }
 
+/* Método auxiliar que intercambia los elementos de dos localidades en un arreglo. */
 void intercambia(int* a, int* b)
 {
         int elementoA = *a;
