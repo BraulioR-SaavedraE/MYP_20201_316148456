@@ -1,6 +1,8 @@
 import java.util.Stack;
 import java.util.LinkedList;
 import java.util.Scanner;
+
+/* Calculadora que soporta suma y producto */
 public class MiniInterp{
 
 	public static void main(String args[]) {
@@ -9,6 +11,11 @@ public class MiniInterp{
 		System.out.println(calcula(separa(x)));
 	}
 
+	/* Método que calcula el resultado de una serie de operaciones
+	 * especificadas en la entrada estándar.
+	 * @param valores conjunto de expresiones aritméticas.
+	 * @return resultado de la expresión.
+	 */
 	private static int calcula(LinkedList<String> valores) {
 		Stack<Integer> pila = new Stack<Integer>();
 		int resultado = 0;
@@ -46,6 +53,12 @@ public class MiniInterp{
 		return resultado;
 	}
 
+	/*
+	 * Método auxiliar que lee la entrada estándar y pone en una lista
+	 * cada uno de los enteros y símbolos de operaciones encontrados.
+	 * @param s cadena leída de la entrada estándar.
+	 * @return lista con las operaciones y números obtenidos.
+	 */
 	private static LinkedList<String> separa(String s) {
 		LinkedList<String> lista = new LinkedList<String>();
 
@@ -64,6 +77,11 @@ public class MiniInterp{
 		return lista;
 	}
 
+	/*
+	 * Método auxiliar que calcula la suma de todos los elementos de una pila.
+	 * @param numeros pila con los enteros.
+	 * @return resultado de la suma de los enteros en la pila-
+	 */
 	private static int suma(Stack<Integer> numeros) {
 		int resultado = 0;
 
