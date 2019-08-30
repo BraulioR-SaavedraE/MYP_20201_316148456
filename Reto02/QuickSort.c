@@ -22,7 +22,8 @@ int main()
         printf("%d ", arreglo[i]);
 }
 
-int* quickSort(int arreglo[], int a, int b) {
+int* quickSort(int* arreglo, int a, int b) 
+{
         if(b <= a)
             return 0;
 
