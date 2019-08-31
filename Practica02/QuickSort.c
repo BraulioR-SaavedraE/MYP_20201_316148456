@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int* quickSort(int arreglo[], int a, int b);
+int* quickSort(int* arreglo, int inicio, int fin);
 void intercambia(int* a, int* b);
 
 /* El método main lee enteros de la entrada estándar y hace que se desplieguen
@@ -26,7 +26,7 @@ int main()
 }
 
 /* Método de ordenamiento de enteros.*/
-int* quickSort(int* arreglo, int a, int b) 
+int* quickSort(int* arreglo, int inicio, int fin) 
 {
         if(b <= a)
             return 0;
