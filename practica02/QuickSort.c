@@ -28,30 +28,30 @@ int main()
 /* Método de ordenamiento de enteros.*/
 int* quickSort(int* arreglo, int inicio, int fin) 
 {
-        if(b <= a)
+        if(fin <= inicio)
             return 0;
 
-        int i = a + 1;
-        int j = b;
+        int i = inicio + 1;
+        int j = fin;
 
         while (i < j){
 
-            if(arreglo[i] > arreglo[a] && arreglo[j] <= arreglo[a]){
+            if(arreglo[i] > arreglo[inicio] && arreglo[j] <= arreglo[inicio]){
                 intercambia(&arreglo[i], &arreglo[j]);
                 i += 1;
                 j -= 1;
-            }else if(arreglo[i] <= arreglo[a]){
+            }else if(arreglo[i] <= arreglo[inicio]){
                 i += 1;
             }else
                 j -= 1;
         }
 
-        if(arreglo[i] > arreglo[a])
+        if(arreglo[i] > arreglo[inicio])
             i -= 1;
 
-        intercambia(&arreglo[a], &arreglo[i]);
-        quickSort(arreglo ,a, i - 1);
-        quickSort(arreglo, i + 1, b);
+        intercambia(&arreglo[inicio], &arreglo[i]);
+        quickSort(arreglo ,inicio, i - 1);
+        quickSort(arreglo, i + 1, fin);
 }
 
 /* Método auxiliar que intercambia los elementos de dos localidades en un arreglo. */
