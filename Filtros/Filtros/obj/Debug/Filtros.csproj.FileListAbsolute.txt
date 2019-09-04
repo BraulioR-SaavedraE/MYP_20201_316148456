@@ -1,0 +1,9 @@
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\bin\Debug\Filtros.exe.config
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\bin\Debug\Filtros.exe
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\bin\Debug\Filtros.pdb
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\obj\Debug\Filtros.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\obj\Debug\Filtros.Properties.Resources.resources
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\obj\Debug\Filtros.csproj.GenerateResource.cache
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\obj\Debug\Filtros.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\obj\Debug\Filtros.exe
+C:\Users\resea\Desktop\Filtros\Filtros\Filtros\obj\Debug\Filtros.pdb
