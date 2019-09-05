@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Filtros.Programa.Aplicación
 {
-    class Class1
+    class Inicio
     {
+        static void Main(String [] args)
+        {
+
+        }
     }
 }
