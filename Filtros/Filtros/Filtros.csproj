@@ -46,6 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Programa\Aplicación\Filtros.cs" />
+    <Compile Include="Programa\Aplicación\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Programa\Aplicación\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Programa\Aplicación\Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -71,7 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Documentación\" />
-    <Folder Include="Programa\Aplicación\" />
     <Folder Include="Programa\Recursos\" />
     <Folder Include="Reporte\" />
     <Folder Include="Test\Pruebas\" />
