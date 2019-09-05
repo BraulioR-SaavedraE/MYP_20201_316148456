@@ -1,6 +1,6 @@
 ﻿namespace Filtros.Programa.Aplicación
 {
-    partial class Form1
+    partial class InterfazGrafica
     {
         /// <summary>
         /// Required designer variable.

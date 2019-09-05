@@ -47,13 +47,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Programa\Aplicación\Filtros.cs" />
-    <Compile Include="Programa\Aplicación\Form1.cs">
+    <Compile Include="Programa\Aplicación\InterfazGrafica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Programa\Aplicación\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Programa\Aplicación\InterfazGrafica.Designer.cs">
+      <DependentUpon>InterfazGrafica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Programa\Aplicación\Main.cs" />
+    <Compile Include="Programa\Aplicación\Inicio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,8 +81,6 @@
     <Folder Include="Documentación\" />
     <Folder Include="Programa\Recursos\" />
     <Folder Include="Reporte\" />
-    <Folder Include="Test\Pruebas\" />
-    <Folder Include="Test\Recursos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Filtros.Programa.Aplicación
 {
-    public partial class Form1 : Form
+    public partial class InterfazGrafica : Form
     {
-        public Form1()
+        public InterfazGrafica()
         {
             InitializeComponent();
         }
