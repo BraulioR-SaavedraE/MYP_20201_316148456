@@ -1,0 +1,1 @@
+Para ejecutar este programa basta con compilarlo usando el comando cc -fopenmp -o QuickSort QuickSort.c y después utilizando ./QuickSort
