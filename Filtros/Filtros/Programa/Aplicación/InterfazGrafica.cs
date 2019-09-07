@@ -30,7 +30,7 @@ namespace Filtros.Programa.Aplicación
                         pictureBox1.Image = Image.FromFile(imagen);
                     }   
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     MessageBox.Show("El archivo seleccionado no es un tipo de imagen válido");
                 }
@@ -65,11 +65,11 @@ namespace Filtros.Programa.Aplicación
 
         private void Button4_Click(object sender, EventArgs e)
         {
-           /* try
+            try
             {
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroRojo image = new FiltroRojo();
-                Bitmap filtro = image.copia(imagenOriginal);
+                Bitmap filtro = image.Copia(imagenOriginal);
                 Bitmap imagenSalida = image.AplicaFiltro(filtro);
 
                 pictureBox2.Image = imagenSalida;
@@ -83,7 +83,7 @@ namespace Filtros.Programa.Aplicación
             catch (NullReferenceException)
             {
                 MessageBox.Show("La imagen es vacia");
-            }*/
+            }
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -110,7 +110,7 @@ namespace Filtros.Programa.Aplicación
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            /*try
+            try
             {
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroMosaico image = new FiltroMosaico();
@@ -128,7 +128,7 @@ namespace Filtros.Programa.Aplicación
             catch (NullReferenceException)
             {
                 MessageBox.Show("La imagen es vacia");
-            }*/
+            }
         }
     }
 }
