@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <omp.h>
 
-int* quickSort(int* arreglo, int inicio, int fin);
+int quickSort(int* arreglo, int inicio, int fin);
 void intercambia(int* a, int* b);
 void quickSortParallel(int* arreglo, int tamano);
 
@@ -29,7 +29,7 @@ int main()
 }
 
 /* Método de ordenamiento de enteros.*/
-int* quickSort(int* arreglo, int inicio, int fin) 
+int quickSort(int* arreglo, int inicio, int fin) 
 {
         if(fin <= inicio)
             return 0;
@@ -67,27 +67,29 @@ void intercambia(int* a, int* b)
 
 int* mezcla(int* arreglo, int** indices)
 {
-        int arregloNuevo[sizeof(arreglo)/sizeof(int)];
+        int arregloNuevo[20];
         int elementos = 0;
         int i = indices[0][0];
         int j = indices[1][0];
 
-        while (i != (indices[0][1]) && j != indices[1][1]) 
+        while (i < (indices[0][1]) && j < indices[1][1]) 
             if (arreglo[i] <= arreglo[j]){
+            	printf("%s","sdsa");
                 arregloNuevo[elementos++] = arreglo[i++];
             }else{
                 arregloNuevo[elementos++] = arreglo[j++];
             }
 
         if (i == indices[0][1]) 
-            while (j != indices[1][1]){
+            while (j < indices[1][1]){
             	arregloNuevo[elementos++] = arreglo[j++];
             }
         else{
-            while (i != indices[0][1]) {
+            while (i < indices[0][1]) {
             	arregloNuevo[elementos++] = arreglo[i++];
             }
         }
+
         return arregloNuevo;
 }
 
@@ -97,7 +99,7 @@ void quickSortParallel(int* arreglo, int longi)
   int i;
   
   omp_set_num_threads(2);
-
+  int** t;
   int indices[2][2]; 
   indices[0][0] = 0;
   indices[0][1] = middle;
@@ -112,7 +114,7 @@ void quickSortParallel(int* arreglo, int longi)
   }
 
   #pragma opm barrier
-  
   quickSort(arreglo, 0, longi -1);
-  //mezcla(arreglo, indices);
+  //int* gron = &indices[0][0];
+  //mezcla(arreglo, &gron);
 }
