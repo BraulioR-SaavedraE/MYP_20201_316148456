@@ -24,6 +24,6 @@ namespace Filtros.Programa.Aplicación
             
         }
 
-        abstract public Bitmap AplicaFiltro(Bitmap imagen);
+        abstract public void AplicaFiltro(Bitmap imagen);
     }
 }
