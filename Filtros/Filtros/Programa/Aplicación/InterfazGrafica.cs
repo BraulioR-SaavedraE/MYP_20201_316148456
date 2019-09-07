@@ -47,8 +47,8 @@ namespace Filtros.Programa.Aplicación
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroAzul image = new FiltroAzul();
                 Bitmap filtro = image.Copia(imagenOriginal);            
-                Bitmap imagenSalida = image.AplicaFiltro(filtro);
-                pictureBox2.Image = imagenSalida;
+                image.AplicaFiltro(filtro);
+                pictureBox2.Image = filtro;
             }
             catch (ArgumentException)
             {
@@ -70,9 +70,9 @@ namespace Filtros.Programa.Aplicación
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroRojo image = new FiltroRojo();
                 Bitmap filtro = image.Copia(imagenOriginal);
-                Bitmap imagenSalida = image.AplicaFiltro(filtro);
+                image.AplicaFiltro(filtro);
 
-                pictureBox2.Image = imagenSalida;
+                pictureBox2.Image = filtro;
             }
 
             catch (ArgumentException)
@@ -93,9 +93,9 @@ namespace Filtros.Programa.Aplicación
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroVerde image = new FiltroVerde();
                 Bitmap filtro = image.Copia(imagenOriginal);
-                Bitmap imagenSalida = image.AplicaFiltro(filtro);
+                image.AplicaFiltro(filtro);
 
-                pictureBox2.Image = imagenSalida;
+                pictureBox2.Image = filtro;
             }
             catch (ArgumentException)
             {
@@ -115,9 +115,9 @@ namespace Filtros.Programa.Aplicación
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroMosaico image = new FiltroMosaico();
                 Bitmap filtro = image.copia(imagenOriginal);
-                Bitmap imagenSalida = image.AplicaFiltro(filtro);
+                image.AplicaFiltro(filtro);
 
-                pictureBox2.Image = imagenSalida;
+                pictureBox2.Image = filtro;
             }
 
             catch (ArgumentException)
