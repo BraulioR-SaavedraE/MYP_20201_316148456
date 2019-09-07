@@ -3,14 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Filtros.Programa.Aplicación
 {
-    class Inicio
+    static class Inicio
     {
-        static void Main(String [] args)
+        [STAThread]
+        static void Main()
         {
-
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new InterfazGrafica());
         }
     }
 }
