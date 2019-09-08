@@ -7,10 +7,10 @@ using System.Drawing;
 
 namespace Filtros.Programa.Aplicación
 {
-    class FiltroVerde : Filtros
+    public class FiltroVerde : Filtros
     {
         override
-         public Bitmap AplicaFiltro(Bitmap imagen)
+         public void AplicaFiltro(Bitmap imagen)
         {
             int x, y;
             for (x = 0; x < imagen.Width; x++)
@@ -22,7 +22,6 @@ namespace Filtros.Programa.Aplicación
                     imagen.SetPixel(x, y, newColor);
                 }
             }
-            return imagen;
         }
     }
 }
