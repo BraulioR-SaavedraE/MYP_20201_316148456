@@ -1,0 +1,20 @@
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.deps.json
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.runtimeconfig.json
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.runtimeconfig.dev.json
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.dll
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.pdb
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Filtros.exe
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Filtros.pdb
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Filtros.exe.config
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csprojAssemblyReference.cache
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csproj.CoreCompileInputs.cache
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.AssemblyInfoInputs.cache
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.AssemblyInfo.cs
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csproj.CopyComplete
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.dll
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.pdb
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.Properties.Resources.resources
+C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csproj.GenerateResource.cache
