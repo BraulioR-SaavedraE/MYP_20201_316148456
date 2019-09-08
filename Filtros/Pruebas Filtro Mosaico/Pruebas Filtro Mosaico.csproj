@@ -16,4 +16,8 @@
     <Folder Include="Recursos\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Filtros\Filtros.csproj" />
+  </ItemGroup>
+
 </Project>
