@@ -10,11 +10,17 @@
     <PackageReference Include="nunit" Version="3.11.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
     <Reference Include="System.Drawing" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="2.2.2" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Recursos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Filtros\Filtros.csproj" />
   </ItemGroup>
 
 </Project>

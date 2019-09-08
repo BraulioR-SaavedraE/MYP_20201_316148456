@@ -4,6 +4,17 @@
     "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Azul\\Pruebas Filtro Azul.csproj": {}
   },
   "projects": {
+    "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj",
+        "projectName": "Filtros",
+        "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Azul\\Pruebas Filtro Azul.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -29,7 +40,11 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
+                "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -51,9 +66,17 @@
               "version": "[2.2.0, )",
               "autoReferenced": true
             },
+            "Microsoft.NETCore.Platforms": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[3.11.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
             },
             "nunit": {
               "target": "Package",

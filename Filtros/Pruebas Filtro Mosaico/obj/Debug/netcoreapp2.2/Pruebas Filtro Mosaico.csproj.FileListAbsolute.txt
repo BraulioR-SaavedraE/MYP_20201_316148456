@@ -1,3 +1,33 @@
+<<<<<<< HEAD
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.deps.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.deps.json
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\bin\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.pdb
+=======
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csprojAssemblyReference.cache
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csproj.CoreCompileInputs.cache
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.AssemblyInfoInputs.cache
@@ -16,3 +46,4 @@ C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\bin\Deb
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.csproj.CopyComplete
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.dll
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Mosaico\obj\Debug\netcoreapp2.2\Pruebas Filtro Mosaico.pdb
+>>>>>>> 838ea27c921d360aadedd147960b7660eca788b6

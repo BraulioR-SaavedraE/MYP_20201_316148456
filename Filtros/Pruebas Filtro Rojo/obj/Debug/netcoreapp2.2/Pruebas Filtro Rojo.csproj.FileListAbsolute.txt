@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.deps.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\Pruebas Filtro Rojo.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.pdb
+=======
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
@@ -18,3 +34,4 @@ C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.pdb
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.Properties.Resources.resources
 C:\Users\LauraItzel\Desktop\RepoBuenisimo\Filtros\Pruebas Filtro Rojo\obj\Debug\netcoreapp2.2\Pruebas Filtro Rojo.csproj.GenerateResource.cache
+>>>>>>> 838ea27c921d360aadedd147960b7660eca788b6

@@ -4,7 +4,22 @@
     "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Rojo\\Pruebas Filtro Rojo.csproj": {}
   },
   "projects": {
+<<<<<<< HEAD
+    "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj",
+        "projectName": "Filtros",
+        "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Rojo\\Pruebas Filtro Rojo.csproj": {
+=======
     "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj": {
+>>>>>>> 838ea27c921d360aadedd147960b7660eca788b6
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj",
@@ -39,8 +54,13 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
+                "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
+=======
               "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj": {
                 "projectPath": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj"
+>>>>>>> 838ea27c921d360aadedd147960b7660eca788b6
               }
             }
           }

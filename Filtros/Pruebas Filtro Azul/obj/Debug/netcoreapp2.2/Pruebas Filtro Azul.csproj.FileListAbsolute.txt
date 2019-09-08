@@ -1,0 +1,36 @@
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.deps.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.dll
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.deps.json
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.dll
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Pruebas Filtro Azul.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Filtros.exe
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Filtros.exe.config
+C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.csproj.CopyComplete
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Filtros.exe
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\bin\Debug\netcoreapp2.2\Filtros.exe.config
+C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\obj\Debug\netcoreapp2.2\Pruebas Filtro Azul.csproj.CopyComplete

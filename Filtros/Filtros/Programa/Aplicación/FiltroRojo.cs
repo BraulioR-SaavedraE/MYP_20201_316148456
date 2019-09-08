@@ -20,9 +20,6 @@ namespace Filtros.Programa.Aplicación
                 {
 
                     Color pixelColor = imagen.GetPixel(x, y);
-                    //if(pixelColor.R == 0)
-                    //  throw new ArgumentException();
-
                     Color newColor = Color.FromArgb(pixelColor.R, 0, 0);
                     imagen.SetPixel(x, y, newColor);
                 }

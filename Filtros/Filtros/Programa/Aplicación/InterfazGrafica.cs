@@ -114,7 +114,7 @@ namespace Filtros.Programa.Aplicación
             {
                 string imagenOriginal = openFileDialog1.FileName;
                 FiltroMosaico image = new FiltroMosaico();
-                Bitmap filtro = image.copia(imagenOriginal);
+                Bitmap filtro = image.Copia(imagenOriginal);
                 image.AplicaFiltro(filtro);
 
                 pictureBox2.Image = filtro;
