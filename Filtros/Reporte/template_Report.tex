@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath,amsthm,amssymb}
+\pagestyle{empty}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\setlength{\parindent}{2cm}
+\usepackage{anysize}
+\marginsize{2cm}{2cm}{2cm}{2cm}
+
+
+% Title Page
+\title{REPORTE DE FILTROS}
+\author{SAAVEDRA ESCALONA BRAULIO, TINOCO MIGUEL LAURA ITZEL}
+
+
+\begin{document}
+
+	\begin{enumerate}
+	
+	\item \textbf{Definición del problema}\\
+	El cliente es un artista que pinta obras RED and BLUE, solicitó una aplicación que pueda aplicar los filtros; verde, rojo, azul, y mosaico, para que las personas que asistan a su exposición los puedan aplicar a sus obras.
+	
+	\item \textbf{Análisis del problema}\\
+	El cliente quiere un programa para aplicar filtros en donde se pueda elegir la imagen y el filtro; para esto vamos a necesitar una interfaz gráfica.
+	
+	Los datos que tenemos son las imágenes que van a estar en la exposición del cliente.
+	
+	Esperamos de salida la imagen que elegimos con el filtro que elegimos.
+	
+	Construcciones que necesitamos para resolver el problema:\\
+	El mayor problema es cómo manejamos la información que guarda la imagen, para poder modificarla y no perderla en el proceso, para esto usamos la clase Bitmap para manejar los pixeles de la imagen y el método Copia() para no modificar la imagen original, lo segundo es modificar los valores de los colores primarios digitales Azul, Rojo y Verde para esto usamos métodos de la clase Bitmap y por ultimo regresar una imagen con el filtro, para esto debemos regresar al formato imagen desde el objeto Bitmap, esto lo soluciono la interfaz gráfica.
+	
+	
+	
+	\item \textbf{Selección de la mejor alternativa}\\
+	Elegimos C\# como lenguaje para programar la aplicación de filtro por que había mucha documentación en Internet que podíamos consultar y contaba con la clase Bitmap la cual nos permitía modificar los pixeles de una imagen, lo cual nos ayudo mucho.
+	La {\em IDE} que utilizamos fue {\em Visual Studio} por que nos ayuda mucho con C\# ademas de que nos facilitaba mucho la programación de la interfaz gráfica.
+	
+	\item \textbf{Pseudocódigo}\\
+	Todos los filtros de color tienen el mismo pseudocódigo:
+	\begin{enumerate}
+	\item Bitmap Copia; String fuente -- Bitmap imagen\\
+		Método copia que recibe de parámetro una cadena que es la fuente de la imagen con la que se va a trabajar, y crea un objeto de tipo Bitmap(matriz de bytes) con la imagen y lo devuelve.
+		
+	\item void AplicaFiltro(Bitmap imagen)\\
+		Método que recibe un objeto tipo Bitmap y con dos ciclos for anidados recorre la matriz de bytes y cambia el color de cada pixel de la imagen con los métodos getPixel(), setPixel(), para dejar solo el color que nos interesa según el filtro en el que estemos, por ejemplo, en el filtro azul solo dejamos la información que tenia en el color azul y lo que tuviera en rojo y verde lo dejamos en 0.
+	\end{enumerate}	
+	{\it Pseudocódigo del filtro mosaico}\\
+	Sean $x, y, z, w \in \mathbb{N}$\\
+	Hacemos $x = 0$\\
+	Mientras $x <$ a la altura de la imagen\\
+	\hspace*{1cm} Hacemos que $y = 0$\\
+	\hspace*{1cm} Mientras $y <$ a la anchura de la imagen\\
+		\hspace*{2cm}	Creamos una Lista de colores.\\
+		\hspace*{2cm}	Hacemos $z = x$\\
+		\hspace*{2cm}   Mientras $z < x + 4 \wedge z <$ a la altura de la imagen\\
+			\hspace*{3cm}Hacemos $w = y$\\
+				\hspace*{3cm}Mientras $w < y +4 \wedge w <$ a la anchura de la imagen\\
+				\hspace*{3cm}Agregamos el pixel con coordenadas $(w, y)$ a la lista de colores.\\
+				\hspace*{3cm}Hacemos $w = w + 1$\\
+			\hspace*{2cm}Hacemos $z = z + 1$\\ 
+			\hspace*{2cm}Tomamos los pixeles, de la lista y promediamos sus componentes R, G y B, respectivamente.\\
+			\hspace*{2cm}Creamos un colores con estos tres elementos promediados.\\
+			\hspace*{2cm}Aplicamos este color a los elementos de nuestra lista.\\
+		\hspace*{1cm}Hacemos $y = y + 1$\\
+	Hacemos $x = x + 1$\footnote{El algoritmo fue tomado de: Owen. (2016). Pixelate image with average cell color. 07 de agosto de 2019, de Stack Exchange Sitio web: https://codereview.stackexchange.com/questions/140162/pixelate-image-with-average-cell-color}
+	$\blacksquare$
+	\item \textbf{Descripción del trabajo de equipo: ¿qué hizo cada quien?}\\
+	Repartición del trabajo:\\
+	Itzel Tinoco:\\
+			\hspace*{0.5cm} Código de Filtro Azul.\\
+			\hspace*{0.5cm} Código de Filtro Verde.\\
+			\hspace*{0.5cm} Código de la Interfaz gráfica.\\
+			\hspace*{0.5cm} Pruebas de Filtro Rojo.\\
+			\hspace*{0.5cm} Pruebas de Filtro Mosaico.\\			
+			\hspace*{0.5cm} Reporte del proyecto.\\
+	Braulio Saavedra:\\
+			\hspace*{0.5cm} Código de Filtro Rojo.\\
+			\hspace*{0.5cm} Código de Filtro Mosaico.\\
+			\hspace*{0.5cm} Pruebas de Filtro Azul.\\
+			\hspace*{0.5cm} Pruebas de Filtro Verde.\\
+			\hspace*{0.5cm} Pruebas Generales.\\
+			\hspace*{0.5cm} Diseño de los directorios del proyecto en {\em Visual Studio}.\\
+			\hspace*{0.5cm} Documentación de todo el código.	
+	\item \textbf{Piensa a futuro}\\
+	Nosotros cobraríamos \$8,000 por este programa teniendo en cuenta la cantidad de tiempo y dificultad del programa.
+	Las mejoras que podríamos hacerle a futuro son:
+		\begin{enumerate}
+		\item Tener la opción de guardar la imagen con el filtro aplicado sin modificar la original.
+		\item Tener mas opciones de filtros aparte de solo el rojo, verde, azul y mosaico.
+		\end{enumerate}
+	\end{enumerate}
+\end{document}          
