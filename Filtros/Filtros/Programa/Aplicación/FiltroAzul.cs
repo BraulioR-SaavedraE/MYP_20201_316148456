@@ -1,14 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Drawing;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 
 namespace Filtros.Programa.Aplicación
 {
+    /// <summary>
+    /// Clase que crea un filtro azul aplicable a una imagen.
+    /// </summary>
     public class FiltroAzul : Filtros
     {
+        /// <summary>
+        /// Método que aplica un filtro azul a una imagen dada.
+        /// </summary>
+        /// <param name="imagen">Representación Bitmap de una imagen.</param>
+        /// <exception cref="System.NullReferenceException">Lanza una excepción en caso
+        /// de que la altura y anchura de la imagen sean menores o iguales a cero.</exception>
         override
          public void AplicaFiltro(Bitmap imagen)
         {

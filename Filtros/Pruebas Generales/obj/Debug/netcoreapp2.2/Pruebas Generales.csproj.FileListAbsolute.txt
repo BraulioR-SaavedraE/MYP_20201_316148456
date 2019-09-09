@@ -1,14 +1,18 @@
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.deps.json
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.runtimeconfig.json
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.runtimeconfig.dev.json
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.dll
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.pdb
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.csprojAssemblyReference.cache
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.csproj.CoreCompileInputs.cache
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.AssemblyInfoInputs.cache
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.AssemblyInfo.cs
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.dll
-C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.deps.json
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Pruebas Generales.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Filtros.exe
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\bin\Debug\netcoreapp2.2\Filtros.exe.config
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.csproj.CopyComplete
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Generales\obj\Debug\netcoreapp2.2\Pruebas Generales.pdb

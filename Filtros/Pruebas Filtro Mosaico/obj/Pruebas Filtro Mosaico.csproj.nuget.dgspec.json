@@ -1,66 +1,48 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj": {}
+    "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj": {}
   },
   "projects": {
-<<<<<<< HEAD
-    "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
+    "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj",
+        "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj",
         "projectName": "Filtros",
-        "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
+        "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj": {
-=======
-    "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj": {
->>>>>>> 838ea27c921d360aadedd147960b7660eca788b6
+    "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj",
-        "projectName": "Filtros",
-        "projectPath": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj"
-      },
-      "frameworks": {
-        "net472": {}
-      }
-    },
-    "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj",
+        "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj",
         "projectName": "Pruebas Filtro Mosaico",
-        "projectPath": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj",
-        "packagesPath": "C:\\Users\\LauraItzel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\obj\\",
+        "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\Pruebas Filtro Mosaico.csproj",
+        "packagesPath": "C:\\Users\\resea\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LauraItzel\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\resea\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
-                "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
-=======
-              "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj": {
-                "projectPath": "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Filtros\\Filtros.csproj"
->>>>>>> 838ea27c921d360aadedd147960b7660eca788b6
+              "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj": {
+                "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj"
               }
             }
           }

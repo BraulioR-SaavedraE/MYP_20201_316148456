@@ -3,16 +3,16 @@ using System;
 using System.Drawing;
 using Filtros.Programa.Aplicación;
 
+
 namespace PruebasAzules
 {
     public class TestAzul
     {
-
         [Test]
         public void RojoYVerdeCero()
         {
             FiltroAzul filtro = new FiltroAzul();
-            Bitmap imagen = filtro.Copia(@"C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\Recursos\Bobby_Carrot.JPG");
+            Bitmap imagen = filtro.Copia(@"C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Azul\Recursos\Bobby_Carrot.jpg");
             filtro.AplicaFiltro(imagen);
 
             for (int i = 0; i < imagen.Width; i++)
@@ -31,12 +31,14 @@ namespace PruebasAzules
         public void AplicaFiltroEnTiempo()
         {
             DateTime inicio = DateTime.UtcNow;
-            FiltroAzul filtro = new FiltroAzul();
-            filtro.AplicaFiltro(filtro.Copia(@"C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Azul\Recursos\Bobby_Carrot.JPG"));
+            FiltroVerde filtro = new FiltroVerde();
+            filtro.AplicaFiltro(filtro.Copia(@"C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Azul\Recursos\Bobby_Carrot_Forever2.png"));
             DateTime fin = DateTime.UtcNow;
             int tiempoTranscurrido = fin.Minute - inicio.Minute;
             if (tiempoTranscurrido > 1)
                 Assert.Fail();
+
+            Assert.Pass();
         }
     }
 }

@@ -25,3 +25,22 @@ C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Filtr
 C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Filtros\bin\Debug\Filtros.exe.config
 C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Filtros\bin\Debug\Filtros.exe
 C:\Users\resea\Desktop\Repositorio - copia (2)\MYP_20201_316148456\Filtros\Filtros\bin\Debug\Filtros.pdb
+C:\Users\resea\Desktop\Final\Filtros\Filtros\bin\Debug\Filtros.exe.config
+C:\Users\resea\Desktop\Final\Filtros\Filtros\bin\Debug\Filtros.exe
+C:\Users\resea\Desktop\Final\Filtros\Filtros\bin\Debug\Filtros.pdb
+C:\Users\resea\Desktop\Final\Filtros\Filtros\obj\Debug\Filtros.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Final\Filtros\Filtros\obj\Debug\Filtros.Properties.Resources.resources
+C:\Users\resea\Desktop\Final\Filtros\Filtros\obj\Debug\Filtros.csproj.GenerateResource.cache
+C:\Users\resea\Desktop\Final\Filtros\Filtros\obj\Debug\Filtros.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Final\Filtros\Filtros\obj\Debug\Filtros.exe
+C:\Users\resea\Desktop\Final\Filtros\Filtros\obj\Debug\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\bin\Debug\Filtros.exe.config
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\bin\Debug\Filtros.exe
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\bin\Debug\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.Properties.Resources.resources
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.csproj.GenerateResource.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.exe
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Filtros\obj\Debug\Filtros.Programa.Aplicación.InterfazGrafica.resources

@@ -22,3 +22,39 @@ C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Ve
 C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.pdb
 C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.exe.config
 C:\Users\resea\Desktop\Repositorio\MYP_20201_316148456\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csproj.CopyComplete
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.deps.json
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.runtimeconfig.json
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.dll
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.pdb
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.exe
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.pdb
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.exe.config
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.AssemblyInfo.cs
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csproj.CopyComplete
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.dll
+C:\Users\resea\Desktop\Final\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.deps.json
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.runtimeconfig.json
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.runtimeconfig.dev.json
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Pruebas Filtro Verde.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.exe
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.pdb
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\bin\Debug\netcoreapp2.2\Filtros.exe.config
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csprojAssemblyReference.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csproj.CoreCompileInputs.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.AssemblyInfoInputs.cache
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.AssemblyInfo.cs
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.csproj.CopyComplete
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.dll
+C:\Users\resea\Desktop\Repositorio\Filtros\Pruebas Filtro Verde\obj\Debug\netcoreapp2.2\Pruebas Filtro Verde.pdb

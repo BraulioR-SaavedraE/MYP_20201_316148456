@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Filtros.Programa.Aplicación
 {
+    /// <summary>
+    /// Clase principal del Programa Filtros.
+    /// Se encarga de hacer correr la interfaz gráfica.
+    /// </summary>
     static class Inicio
     {
         [STAThread]

@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace Filtros.Programa.Aplicación
 {
+    /// <summary>
+    /// Crea objetos para aplicar filtros verdes a imágenes.
+    /// </summary>
     public class FiltroVerde : Filtros
     {
+        /// <summary>
+        /// Método que aplica un filtro verde a una imagen.
+        /// </summary>
+        /// <param name="imagen">Imagen representada en un objeto Bitmap</param>
         override
          public void AplicaFiltro(Bitmap imagen)
         {

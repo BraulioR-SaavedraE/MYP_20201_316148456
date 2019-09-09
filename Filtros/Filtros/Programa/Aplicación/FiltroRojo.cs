@@ -1,15 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace Filtros.Programa.Aplicación
 {
+    /// <summary>
+    /// Clase que crea filtros rojos para aplicarlos en una imagen.
+    /// </summary>
     public class FiltroRojo : Filtros
     {
-
+        /// <summary>
+        /// Método que aplica un filtro rojo a una imagen.
+        /// </summary>
+        /// <param name="imagen">Imagen representada por un objeto Bitmap</param>
         override
         public void AplicaFiltro(Bitmap imagen)
         {

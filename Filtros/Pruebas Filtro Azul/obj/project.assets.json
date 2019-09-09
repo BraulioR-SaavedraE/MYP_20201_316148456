@@ -5867,11 +5867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Azul\\Pruebas Filtro Azul.csproj",
+      "projectUniqueName": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Azul\\Pruebas Filtro Azul.csproj",
       "projectName": "Pruebas Filtro Azul",
-      "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Azul\\Pruebas Filtro Azul.csproj",
+      "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Azul\\Pruebas Filtro Azul.csproj",
       "packagesPath": "C:\\Users\\resea\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Pruebas Filtro Azul\\obj\\",
+      "outputPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Azul\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5890,8 +5890,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj": {
-              "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\MYP_20201_316148456\\Filtros\\Filtros\\Filtros.csproj"
+            "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj": {
+              "projectPath": "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Filtros\\Filtros.csproj"
             }
           }
         }

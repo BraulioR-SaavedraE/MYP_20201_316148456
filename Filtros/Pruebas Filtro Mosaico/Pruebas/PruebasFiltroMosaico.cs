@@ -13,7 +13,7 @@ namespace PruebasMosaicos
         public void MismoColor()
         {
             //Arrange
-            string fuente = "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\Recursos\\pruebaMosaico.jpg";
+            string fuente = "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\Recursos\\pruebaMosaico.jpg";
             FiltroMosaico filtro = new FiltroMosaico();
             Bitmap imagen = filtro.Copia(fuente);
             filtro.AplicaFiltro(imagen);
@@ -58,7 +58,7 @@ namespace PruebasMosaicos
         public void Tiempo()
         {
             //Arrange
-            string fuente = "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Mosaico\\Recursos\\pruebaMosaico.jpg";
+            string fuente = "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Mosaico\\Recursos\\pruebaMosaico.jpg";
             FiltroRojo filtro = new FiltroRojo();
 
             Stopwatch Cronometro = new Stopwatch();

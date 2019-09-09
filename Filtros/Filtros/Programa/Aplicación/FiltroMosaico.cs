@@ -7,8 +7,15 @@ using System.Drawing;
 
 namespace Filtros.Programa.Aplicación
 {
+    /// <summary>
+    /// Clase que crea filtros para aplicarlos a una imagen y pixelearla.
+    /// </summary>
     public class FiltroMosaico : Filtros
     {
+        /// <summary>
+        /// Método que aplica un filtro pixeleado a una imagen.
+        /// </summary>
+        /// <param name="image">Imagen representada con un objeto Bitmap.</param>
         override
         public void AplicaFiltro(Bitmap image)
         {

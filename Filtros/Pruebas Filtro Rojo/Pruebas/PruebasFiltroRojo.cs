@@ -12,7 +12,7 @@ namespace PruebasRojas
         public void VerdeYAzulCero()
         {
             //Arrange
-            string fuente = "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Rojo\\Recursos\\pruebaRojo.jpg";
+            string fuente = "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Rojo\\Recursos\\pruebaRojo.jpg";
             FiltroRojo filtro = new FiltroRojo();
             Bitmap imagen = filtro.Copia(fuente);
             filtro.AplicaFiltro(filtro.Copia(fuente));
@@ -37,7 +37,7 @@ namespace PruebasRojas
         public void Tiempo()
         {
             //Arrange
-            string fuente = "C:\\Users\\LauraItzel\\Desktop\\RepoBuenisimo\\Filtros\\Pruebas Filtro Rojo\\Recursos\\pruebaRojo2.jpg";
+            string fuente = "C:\\Users\\resea\\Desktop\\Repositorio\\Filtros\\Pruebas Filtro Rojo\\Recursos\\pruebaRojo2.jpg";
             FiltroRojo filtro = new FiltroRojo();
 
             Stopwatch Cronometro = new Stopwatch();
