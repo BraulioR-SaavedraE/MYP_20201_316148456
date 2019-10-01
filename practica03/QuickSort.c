@@ -16,11 +16,11 @@ int main()
     int* arreglo;
 
     while (i < numero){
-        scanf("%d", &k); 
+        scanf("%d", &k);
         arreglo[i++] = k;
     }
 
-    arreglo=  quickSortParallel(arreglo, numero);
+    quickSortParallel(arreglo, numero);
 
     for(i = 0; i < numero; i++)
     	printf("%d ", arreglo[i]);
