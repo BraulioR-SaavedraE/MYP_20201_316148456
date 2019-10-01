@@ -20,7 +20,7 @@ int main()
         arreglo[i++] = k;
     }
 
-    quickSortParallel(arreglo, numero);
+    arreglo = quickSortParallel(arreglo, numero);
 
     for(i = 0; i < numero; i++)
     	printf("%d ", arreglo[i]);
