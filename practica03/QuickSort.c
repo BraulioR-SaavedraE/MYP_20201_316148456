@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <omp.h>
 
-void quickSort(int* arreglo, int inicio, int fin);
+int* quickSort(int* arreglo, int inicio, int fin);
 void intercambia(int* a, int* b);
 int* quickSortParallel(int* arreglo, int tamano);
 
@@ -13,26 +13,25 @@ int main()
     int numero, k;
     int i = 0;
     scanf("%d", &numero);
-    int* arreglo;
+    int arreglo[numero];
 
     while (i < numero){
         scanf("%d", &k);
         arreglo[i++] = k;
     }
 
-    arreglo = quickSortParallel(arreglo, numero);
-
-    for(i = 0; i < numero; i++)
-    	printf("%d ", arreglo[i]);
+    int* y = quickSortParallel(arreglo, numero);
+    for(int x = 0; x < numero; x++)
+    	printf("%d ", y[x]);
 
     printf("\n");
 }
 
-/*	Método de ordenamiento de enteros.	*/
-void quickSort(int* arreglo, int inicio, int fin) 
+/* Método de ordenamiento de enteros.*/
+int* quickSort(int* arreglo, int inicio, int fin) 
 {
         if(fin <= inicio)
-            return;
+            return 0;
 
         int i = inicio + 1;
         int j = fin;
@@ -66,9 +65,9 @@ void intercambia(int* a, int* b)
 }
 
 /*	Método que mezcla dos subarreglos ya ordenados y produce uno también ordenado.	*/
-int* mezcla(int* arreglo, int indices[][2])
+int* mezcla(int* arreglo, int indices[][2], int longitud)
 {
-        static int arregloNuevo[1000];
+        int *new = (int *) malloc(longitud* sizeof(int));
         int elementos = 0;
         int i = indices[0][0];
         int j = indices[1][0];
@@ -76,18 +75,21 @@ int* mezcla(int* arreglo, int indices[][2])
         while (i <= (indices[0][1]) && j <= indices[1][1])
 
             if (arreglo[i] <= arreglo[j])
-                arregloNuevo[elementos++] = arreglo[i++];
+                new[elementos++] = arreglo[i++];
             else
-                arregloNuevo[elementos++] = arreglo[j++];
+                new[elementos++] = arreglo[j++];
             
-        if (i == indices[0][1]) 
+        if (i > indices[0][1]) 
             while (j <= indices[1][1])
-            	arregloNuevo[elementos++] = arreglo[j++];
+            	new[elementos++] = arreglo[j++];
         else
             while (i <= indices[0][1])
-            	arregloNuevo[elementos++] = arreglo[i++];
+            	new[elementos++] = arreglo[i++];
 
-        return arregloNuevo;
+            
+        arreglo = &new[0];
+
+        return arreglo;
 }
 
 /*	Versión paralela del algoritmo QuickSort.	*/
@@ -113,5 +115,10 @@ int* quickSortParallel(int* arreglo, int longitud)
 	#pragma opm barrier
 	int* ok = &indices[0][0];
 
-	return mezcla(arreglo, indices);
+    for(int x = 0; x < longitud; x++)
+            printf("%d ", arreglo[x]);
+
+    arreglo = mezcla(arreglo, indices, longitud);
+
+    return arreglo;
 }
