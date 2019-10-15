@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module AnimalClassifier</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>AnimalClassifier</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/home/bear/Documentos/ciencias/mp/practicas/ElCuadradoPerfecto/classify/AnimalClassifier.py">/home/bear/Documentos/ciencias/mp/practicas/ElCuadradoPerfecto/classify/AnimalClassifier.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="keras.html">keras</a><br>
+</td><td width="25%" valign=top><a href="numpy.html">numpy</a><br>
+</td><td width="25%" valign=top><a href="pickle.html">pickle</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="AnimalClassifier.html#AnimalClassifier">AnimalClassifier</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AnimalClassifier">class <strong>AnimalClassifier</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Clase&nbsp;general&nbsp;para&nbsp;clasificar&nbsp;algun&nbsp;animal&nbsp;de&nbsp;un&nbsp;dataset&nbsp;especifico.&nbsp;Esta<br>
+pensado&nbsp;para&nbsp;que&nbsp;sus&nbsp;subclases&nbsp;especifiquen&nbsp;las&nbsp;capas&nbsp;del&nbsp;modelo&nbsp;que&nbsp;mas<br>
+convenga&nbsp;para&nbsp;determinar&nbsp;el&nbsp;animal&nbsp;y&nbsp;la&nbsp;etiqueta&nbsp;del&nbsp;animal&nbsp;que<br>
+representa.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="AnimalClassifier-__init__"><strong>__init__</strong></a>(self, label, layers, loss='poisson', optimizer='adam')</dt><dd><tt>Construye&nbsp;un&nbsp;clasificador&nbsp;de&nbsp;animal&nbsp;con&nbsp;las&nbsp;especificaciones&nbsp;dadas.&nbsp;Para<br>
+mas&nbsp;informacion&nbsp;sobre&nbsp;las&nbsp;capas,&nbsp;la&nbsp;funcion&nbsp;de&nbsp;perdida&nbsp;y&nbsp;algoritmo&nbsp;de<br>
+optimizacion&nbsp;disponibles,&nbsp;consulte&nbsp;la&nbsp;documentacion&nbsp;de&nbsp;Keras.<br>
+Parametros:<br>
+-&nbsp;label:&nbsp;La&nbsp;etiqueta&nbsp;que&nbsp;representa&nbsp;al&nbsp;animal&nbsp;que&nbsp;se&nbsp;quiere&nbsp;clasificar.<br>
+-&nbsp;layers:&nbsp;Una&nbsp;lista&nbsp;con&nbsp;las&nbsp;capas&nbsp;de&nbsp;la&nbsp;red&nbsp;neuronal&nbsp;a&nbsp;ocupar.<br>
+-&nbsp;loss:&nbsp;La&nbsp;funcion&nbsp;de&nbsp;perdida&nbsp;que&nbsp;se&nbsp;desea&nbsp;optimizar&nbsp;en&nbsp;la&nbsp;red&nbsp;neuronal.<br>
+-&nbsp;optimizer:&nbsp;El&nbsp;algoritmo&nbsp;de&nbsp;optimizacion&nbsp;para&nbsp;la&nbsp;red&nbsp;neuronal.</tt></dd></dl>
+
+<dl><dt><a name="AnimalClassifier-evaluate"><strong>evaluate</strong></a>(self, x, y)</dt><dd><tt>Evalua&nbsp;el&nbsp;modelo&nbsp;entrenado&nbsp;anteriormente&nbsp;con&nbsp;el&nbsp;conjunto&nbsp;de&nbsp;datos<br>
+especificado.<br>
+Parametros:<br>
+-&nbsp;x:&nbsp;Muestras.<br>
+-&nbsp;y:&nbsp;Etiquetas.</tt></dd></dl>
+
+<dl><dt><a name="AnimalClassifier-fit"><strong>fit</strong></a>(self, x, y, val_data=None)</dt><dd><tt>Entrenamiento&nbsp;principal&nbsp;del&nbsp;modelo.&nbsp;Utiliza&nbsp;la&nbsp;etiqueta&nbsp;pasada&nbsp;en&nbsp;el<br>
+constructor&nbsp;para&nbsp;normalizar&nbsp;las&nbsp;etiquetas&nbsp;en&nbsp;el&nbsp;parametro&nbsp;y&nbsp;dado:&nbsp;toma<br>
+como&nbsp;muestra&nbsp;positiva&nbsp;a&nbsp;cualquiera&nbsp;que&nbsp;tenga&nbsp;la&nbsp;misma&nbsp;etiqueta&nbsp;que&nbsp;la<br>
+especificada&nbsp;anteroiormente&nbsp;y&nbsp;como&nbsp;negativa&nbsp;a&nbsp;cualquier&nbsp;otra.<br>
+&nbsp;<br>
+Entrena&nbsp;la&nbsp;red&nbsp;neuronal&nbsp;interna&nbsp;con&nbsp;las&nbsp;muestras&nbsp;y&nbsp;etiquetas&nbsp;pasadas<br>
+como&nbsp;parametro,&nbsp;si&nbsp;es&nbsp;especificado&nbsp;la&nbsp;data&nbsp;de&nbsp;validacion,&nbsp;se&nbsp;utiliza<br>
+tambien&nbsp;al&nbsp;entrenar.<br>
+&nbsp;<br>
+Parametros:<br>
+-&nbsp;x:&nbsp;numpy.ndarray&nbsp;con&nbsp;las&nbsp;muestras&nbsp;con&nbsp;las&nbsp;que&nbsp;se&nbsp;va&nbsp;a&nbsp;entrenar.<br>
+-&nbsp;y:&nbsp;iterable&nbsp;con&nbsp;las&nbsp;etiquetas&nbsp;de&nbsp;las&nbsp;muestras<br>
+-&nbsp;val_data:&nbsp;None&nbsp;si&nbsp;no&nbsp;se&nbsp;desea&nbsp;utilizar&nbsp;o&nbsp;una&nbsp;tupla&nbsp;(x_val,&nbsp;y_val)&nbsp;con<br>
+&nbsp;&nbsp;las&nbsp;muestras&nbsp;y&nbsp;etiquetas&nbsp;de&nbsp;la&nbsp;validacion&nbsp;interna&nbsp;del&nbsp;modelo</tt></dd></dl>
+
+<dl><dt><a name="AnimalClassifier-load"><strong>load</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="AnimalClassifier-predict"><strong>predict</strong></a>(self, test)</dt></dl>
+
+<dl><dt><a name="AnimalClassifier-save"><strong>save</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="AnimalClassifier-validar_xy"><strong>validar_xy</strong></a>(self, x, y)</dt><dd><tt>Funcion&nbsp;de&nbsp;uso&nbsp;interno.&nbsp;Determina&nbsp;si&nbsp;los&nbsp;parametros&nbsp;cumplen<br>
+requisitos&nbsp;de&nbsp;ser&nbsp;conjunto&nbsp;de&nbsp;datos&nbsp;de&nbsp;muestra&nbsp;y&nbsp;de&nbsp;etiquetas.<br>
+Parametros:<br>
+-&nbsp;x:&nbsp;Muestras.<br>
+-&nbsp;y:&nbsp;Etiquetas.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
