@@ -115,9 +115,6 @@ int* quickSortParallel(int* arreglo, int longitud)
 	#pragma opm barrier
 	int* ok = &indices[0][0];
 
-    for(int x = 0; x < longitud; x++)
-            printf("%d ", arreglo[x]);
-
     arreglo = mezcla(arreglo, indices, longitud);
 
     return arreglo;
