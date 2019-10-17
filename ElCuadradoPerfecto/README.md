@@ -11,6 +11,12 @@ sudo apt-get install python3-pip
 ```
 pip install virtualenv
 sudo pip3 install virtualenv
+
+```
+3. Banco de imágenes
+```
+https://www.dropbox.com/sh/x7gms2kon2hrlg6/AADxfPOA0WkCXeeS99K-dlBda?dl=0
+https://drive.google.com/open?id=1uhHC6eIgT2PaO4Fl0tkjcmHnP6TMNggA
 ```
 ## Instalación
 1. Iniciar ambiente virtual
