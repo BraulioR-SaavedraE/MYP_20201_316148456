@@ -1,0 +1,9 @@
+    
+    + GET signup.php (username: string, password: string) -> {status: string}
+    - GET login.php (username: string, password: string) -> {status: string, key: string}
+    + GET index.php (key: string) -> [2000 perros aleatorios]
+    - GET like.php (key: string, dog_id: string) -> void
+    - GET detalles.php (key: string, dog_id: string) -> Perro + comentarios
+    - POST comentar.php (key: string, dog_id: string, *comentario: string) -> void
+
+* parametro POST
