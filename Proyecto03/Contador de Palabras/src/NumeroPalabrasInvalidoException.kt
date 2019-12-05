@@ -1,0 +1,1 @@
+class NumeroPalabrasInvalidoException(s: String) : Exception(s)
