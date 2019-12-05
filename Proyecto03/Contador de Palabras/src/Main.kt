@@ -10,7 +10,7 @@ import javax.swing.filechooser.FileFilter
 import javax.swing.filechooser.FileNameExtensionFilter
 
 
-class InterfazGrafica : JFrame() {
+class Main : JFrame() {
 
     private val contentPane: JPanel
     private val textField: JTextField
@@ -128,7 +128,7 @@ class InterfazGrafica : JFrame() {
             EventQueue.invokeLater(object : Runnable() {
                 fun run() {
                     try {
-                        val frame = InterfazGrafica()
+                        val frame = Main()
                         frame.setVisible(true)
                     } catch (e: Exception) {
                         e.printStackTrace()

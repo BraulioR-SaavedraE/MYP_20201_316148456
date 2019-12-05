@@ -1,37 +1,84 @@
 import java.awt.Color
 import java.util.LinkedList
 
-class GraficaBarras @Throws(NumeroPalabrasInvalidoException::class)
-constructor(arbolito: LinkedList<Palabra>, cantidad: Int, posicion: Int) : Grafica(arbolito, cantidad, posicion) {
+class GraficaPastel @Throws(NumeroPalabrasInvalidoException::class)
+constructor(arbolito: LinkedList<Palabra>, palabras: Int, posicionY: Int) : Grafica(arbolito, palabras, posicionY) {
 
-    fun creaGrafica(): String {
-        var barra = creaBarras()
-        barra += makeMarginalNotes()
-        return barra
+
+    private fun makeSlice(angle: Double, currentX: Double, currentY: Double, oldAngle: Double): String {
+        var pieCode = "\t\t<path d=\"M0,0 LEQUIS,LLE A100,100 0 0,1 EQUIS1,LLE2 Z\" fill=\"COLOR\" />\n"
+        pieCode = pieCode.replaceFirst("EQUIS", Double.toString(currentX))
+        pieCode = pieCode.replaceFirst("LLE", Double.toString(currentY))
+        pieCode = pieCode.replaceFirst("EQUIS1", Double.toString(calculateX(angle)))
+        pieCode = pieCode.replaceFirst("LLE2", Double.toString(calculateY(angle)))
+
+        if (Math.abs(oldAngle - angle) > Math.PI)
+            pieCode = pieCode.replaceFirst("A100,100 0 0,1", "A100,100 0 1,1")
+
+        return pieCode
     }
 
-    private fun creaBarras(): String {
-        var barras = ""
-        var acumulado = 0
-        var coordenadaX = -200
-        val coordenadaY = posicionY - 10
-        val tamano = Math.floor(600.0 / arbolito.size()) as Int
-        var cuadro = "\t\t<rect x='%d' y='%d' height='%d' width='ANCHO' fill='%s' stroke='transparent' stroke-width='2'/>\n"
-        cuadro = cuadro.replaceFirst("ANCHO", Integer.toString(tamano))
+    private fun calculateX(angle: Double): Double {
+        return Math.cos(angle) * 100.0
+    }
 
-        for (x in arbolito) {
-            val altura = Math.floor((x.getCantidad() + 0.0) / Contador.totalPalabras(super.completas) * 200.0) as Int
-            barras += String.format(cuadro, coordenadaX, coordenadaY - altura, altura, getNextColorRGB())
-            coordenadaX += tamano
-            acumulado += x.getCantidad()
+    private fun calculateY(angle: Double): Double {
+        return Math.sin(angle) * 100.0
+    }
+
+    fun makePie(): String {
+        var pie = ""
+        pie += setSlices()
+        pie += "\t</g>\n"
+        pie += super.makeMarginalNotes()
+        pie = pie.replaceFirst("LARGO", Integer.toString(getPosicion() + 400))
+
+        return pie
+    }
+
+    private fun setSlices(): String {
+        var pie = ""
+        var cumulated = 0
+        var currentX = 100.0
+        var currentY = 0.0
+        var angle = 0.0
+
+        if (getPalabrasTotal() === 1) {
+            pie += "\t\t<circle r=\"100\" fill=\"COLOR\"/>\n"
+            pie = pie.replaceFirst("COLOR", super.getNextColorRGB())
+            super.posicionY += 20
+            return pie
+        } else {
+            for (x in super.arbolito) {
+                val auxiliar = angle
+                angle = calculateAngle(x.getCantidad(), cumulated)
+                pie += makeSlice(angle, currentX, currentY, auxiliar)
+                pie = pie.replaceFirst("COLOR", getNextColorRGB())
+                currentX = calculateX(angle)
+                currentY = calculateY(angle)
+                cumulated += x.getCantidad()
+
+            }
         }
 
-        if (palabras < Contador.totalPalabras(super.completas)) {
-            val altura = Math.floor((Contador.totalPalabras(super.completas) - acumulado + 0.0) / Contador.totalPalabras(super.completas) * 200.0) as Int
-            barras += String.format(cuadro, coordenadaX, coordenadaY - altura, altura, getNextColorRGB())
-            coordenadaX += tamano
+        if (super.arbolito.size() < super.getPalabrasTotal()) {
+            val auxiliarAngulo = angle
+            angle = calculateAngle(super.getPalabrasTotal() - cumulated, cumulated)
+            val auxiliar = makeSlice(angle, currentX, currentY, auxiliarAngulo)
+            pie += auxiliar
+            pie = pie.replaceFirst("COLOR", getNextColorRGB())
+            currentX = calculateX(angle)
+            currentY = calculateY(angle)
+            cumulated += super.getPalabrasTotal() - cumulated
         }
 
-        return barras
+        super.posicionY += 20
+        return pie
+    }
+
+    private fun calculateAngle(percent: Int, cumulated: Int): Double {
+        val total = super.getPalabrasTotal()
+
+        return 2.0 * Math.PI * ((cumulated.toDouble() + percent.toDouble() + 0.0) / total)
     }
 }
