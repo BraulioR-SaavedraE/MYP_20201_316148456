@@ -1,7 +1,8 @@
+package Main
+
 import java.util.LinkedList
 
-open class Grafica @Throws(NumeroPalabrasInvalidoException::class)
-protected constructor(var palabrasCompletas: LinkedList<Palabra>, palabras: Int, posicionY: Int) {
+open class Grafica @Throws(NumeroPalabrasInvalidoException::class) constructor(var palabrasCompletas: LinkedList<Palabra>, palabras: Int, posicionY: Int) {
     protected var colores: Colores
     protected var palabrasDiferentes: LinkedList<Palabra>
     protected var palabras = 0

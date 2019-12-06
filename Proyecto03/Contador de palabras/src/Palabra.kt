@@ -1,3 +1,5 @@
+package Main
+
 import java.util.*
 
 class Palabra : Comparator<Palabra>, Comparable<Palabra> {

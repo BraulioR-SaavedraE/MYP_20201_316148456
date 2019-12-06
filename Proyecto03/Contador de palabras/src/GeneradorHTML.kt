@@ -1,5 +1,5 @@
-import java.*
-import java.util.LinkedList
+package Main
+
 import java.io.*
 
 object GeneradorHTML {

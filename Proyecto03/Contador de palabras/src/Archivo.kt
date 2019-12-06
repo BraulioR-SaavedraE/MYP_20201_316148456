@@ -1,13 +1,11 @@
+package Main
+
 import java.io.BufferedReader
 import java.io.FileReader
 import java.io.IOException
 import java.util.StringTokenizer
 import java.util.*
 import java.util.LinkedList
-import javax.swing.UIManager.put
-
-
-
 
 
 class Archivo
@@ -34,7 +32,7 @@ class Archivo
         try {
             this.archivo = BufferedReader(FileReader(ruta))
         } catch (e: Exception) {
-            println("No se encontro el archivo")
+            throw Exception()
         }
 
         this.tabla = this.tabla()
@@ -99,11 +97,11 @@ class Archivo
     }
 
     /**
-     * Metodo auxiliar crea una lista de objeto Palabra
-     * Palabra contiene un string con la palabra
+     * Metodo auxiliar crea una lista de objeto Main.Palabra
+     * Main.Palabra contiene un string con la palabra
      * y un int con el numero de veces que aparece esa palabra en el documento
      * @param tabla Hashtable
-     * @return lista de objetos palabra en orden descendiente segun el entero que contiene el objeto Palabra
+     * @return lista de objetos palabra en orden descendiente segun el entero que contiene el objeto Main.Palabra
      */
     fun listaOrdenada(tabla: Hashtable<String, Int>): LinkedList<Palabra> {
         val lista = LinkedList<Palabra>()

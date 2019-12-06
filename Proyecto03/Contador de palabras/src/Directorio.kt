@@ -1,5 +1,5 @@
-import java.*
-import java.util.*
+package Main
+
 import java.util.LinkedList
 
 

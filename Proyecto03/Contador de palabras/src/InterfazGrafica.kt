@@ -1,3 +1,5 @@
+package Main
+
 import java.awt.EventQueue
 import java.util.*
 import javax.swing.*
@@ -69,7 +71,7 @@ contentPane.add(scroll)
                     fileNames.add(file.absolutePath)
                 }
                 nombres = fileNames
-                textArea.text = "Archivo(s) seleccionados:  \n$fileNames"
+                textArea.text = "Main.Archivo(s) seleccionados:  \n$fileNames"
             } else {
                 println("No se ha seleccionado ningún fichero")
             }
@@ -80,9 +82,9 @@ contentPane.add(scroll)
         *por el momento solo imprime la listaOrdenada de palabras de cada archivo
         */
 	bContar.addActionListener {
-        //prueba de la interfaz con la clase Archivo
+        //prueba de la interfaz con la clase Main.Archivo
         val direc = Directorio(nombres)
-        //prueba de la interfaz con la clase Directorio
+        //prueba de la interfaz con la clase Main.Directorio
         val archivos = LinkedList<Archivo>()
         val palabras = LinkedList<Palabra>()
 

@@ -1,4 +1,5 @@
-import java.awt.Color
+package Main
+
 import java.util.LinkedList
 
 class GraficaBarras @Throws(NumeroPalabrasInvalidoException::class)
@@ -29,7 +30,9 @@ constructor(arbolito: LinkedList<Palabra>, cantidad: Int, posicion: Int) : Grafi
 
         if (palabras < Contador.totalPalabras(super.palabrasCompletas)) {
             val altura =
-                Math.floor((Contador.totalPalabras(super.palabrasCompletas) - acumulado + 0.0) / Contador.totalPalabras(super.palabrasCompletas) * 200.0)
+                Math.floor((Contador.totalPalabras(super.palabrasCompletas) - acumulado + 0.0) / Contador.totalPalabras(
+                    super.palabrasCompletas
+                ) * 200.0)
                     .toInt()
             barras += String.format(cuadro, coordenadaX, coordenadaY - altura, altura, nextColorRGB)
             coordenadaX += tamano

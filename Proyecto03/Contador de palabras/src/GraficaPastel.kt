@@ -1,4 +1,5 @@
-import java.awt.Color
+package Main
+
 import java.util.LinkedList
 
 class GraficaPastel @Throws(NumeroPalabrasInvalidoException::class)
