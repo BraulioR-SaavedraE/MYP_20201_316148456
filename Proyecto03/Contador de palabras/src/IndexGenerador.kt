@@ -1,3 +1,4 @@
+import java.*
 import java.io.*
 import java.util.LinkedList
 
@@ -7,10 +8,10 @@ class IndexGenerador(private val nombres: LinkedList<String>) {
         var index = HEADER
 
         for (x in nombres) {
-            val nombre = x.substring(x.lastIndexOf("/") + 1, x.length())
+            val nombre = x.substring(x.lastIndexOf("/") + 1, x.length)
             index += REF
-            index = index.replaceFirst("ARCHIVO", x + ".html")
-            index = index.replaceFirst("NOMBRE", nombre)
+            index = index.replaceFirst("ARCHIVO".toRegex(), "$x.html")
+            index = index.replaceFirst("NOMBRE".toRegex(), nombre + " ")
         }
 
         index += FOOTER
@@ -32,7 +33,7 @@ class IndexGenerador(private val nombres: LinkedList<String>) {
                 myObj.createNewFile()
 
             } catch (e: IOException) {
-                System.out.println(e)
+                println(e)
             }
 
             try {
@@ -40,7 +41,7 @@ class IndexGenerador(private val nombres: LinkedList<String>) {
                 myWriter.write(html)
                 myWriter.close()
             } catch (e: IOException) {
-                System.out.println(e)
+                println(e)
             }
 
         }

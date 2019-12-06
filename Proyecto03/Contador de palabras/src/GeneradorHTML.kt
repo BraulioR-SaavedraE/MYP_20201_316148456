@@ -1,3 +1,4 @@
+import java.*
 import java.util.LinkedList
 import java.io.*
 
@@ -12,14 +13,14 @@ object GeneradorHTML {
     private val rotationSVG = "\t\t<g transform=\"rotate(-90)\">\n"
     private val footerSVG = "\t</svg>\n"
 
-    private fun incrustaPastel(pastel: GraficaPastel, posicion: Int): String {
-        pastel.ponPosicionY(posicion)
+    private fun incrustaPastel(pastel: GraficaPastel, posicion1: Int): String {
+        pastel.posicion = posicion1
 
         return pastel.makePie()
     }
 
-    private fun incrustaBarras(barras: GraficaBarras, posicion: Int): String {
-        barras.ponPosicionY(posicion)
+    private fun incrustaBarras(barras: GraficaBarras, posicion1: Int): String {
+        barras.posicion = posicion1
 
         return barras.creaGrafica()
     }
@@ -29,13 +30,16 @@ object GeneradorHTML {
         html += headerSVG
         html += rotationSVG
         html += incrustaPastel(pastel, 110)
-        html += incrustaBarras(barras, pastel.getPosicion() + 300)
+        html += incrustaBarras(barras, pastel.posicion + 300)
         html += footerSVG
-        html += Contador.reporte(pastel.getPalabrasCompletas())
+        html += Contador.reporte(pastel.palabrasCompletas)
         html += footer
-        html = html.replaceFirst("LARGO", Integer.toString(barras.getPosicion() + 400 + pastel.getPalabrasCompletas().size()))
-        html = html.replaceFirst("TITULO", nombre)
-        html = html.replaceFirst("NOMBRE", nombre)
+        html = html.replaceFirst(
+            "LARGO".toRegex(),
+            Integer.toString(barras.posicion + 400 + pastel.palabrasCompletas.size)
+        )
+        html = html.replaceFirst("TITULO".toRegex(), nombre)
+        html = html.replaceFirst("NOMBRE".toRegex(), nombre)
 
         guardaHTML(directorio, nombre, html)
         return html
@@ -48,7 +52,7 @@ object GeneradorHTML {
             myObj.createNewFile()
 
         } catch (e: IOException) {
-            System.out.println(e)
+            println(e)
         }
 
         try {
@@ -56,7 +60,7 @@ object GeneradorHTML {
             myWriter.write(html)
             myWriter.close()
         } catch (e: IOException) {
-            System.out.println(e)
+            println(e)
         }
 
     }

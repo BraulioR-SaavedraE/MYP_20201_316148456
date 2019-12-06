@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Contador de Palabras.iml" filepath="$PROJECT_DIR$/.idea/Contador de Palabras.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Contador de palabras.iml" filepath="$PROJECT_DIR$/Contador de palabras.iml" />
     </modules>
   </component>
 </project>

@@ -3,13 +3,19 @@ import java.io.FileReader
 import java.io.IOException
 import java.util.StringTokenizer
 import java.util.*
+import java.util.LinkedList
+import javax.swing.UIManager.put
+
+
+
+
 
 class Archivo
 /**
  * Constructor de la clase
  * @param ruta del documento
  */
-(ruta: String) {
+    (ruta: String) {
 
     private var archivo: BufferedReader? = null
     /**
@@ -17,18 +23,18 @@ class Archivo
      * y el numero de veces que aparecen
      * @return Hashtable
      */
-    val tabla: Hashtable<String, Integer>
+    var tabla: Hashtable<String, Int>
     /**
      * Obtener el nombre del archivo
      * @return cadena con el nombre
      */
-    val nombre: String
+    var nombre: String
 
     init {
         try {
             this.archivo = BufferedReader(FileReader(ruta))
         } catch (e: Exception) {
-            System.out.println("No se encontro el archivo")
+            println("No se encontro el archivo")
         }
 
         this.tabla = this.tabla()
@@ -47,11 +53,11 @@ class Archivo
         if (cadena != null) {
             normal = cadena
             //Quitar caracteres no ASCII
-            normal = normal.replaceAll("\\p{InCombiningDiacriticalMarks}+", "")
+            normal = normal.replace("\\p{InCombiningDiacriticalMarks}+".toRegex(), "")
             //poner en minusculas
             normal = normal.toLowerCase()
             //quitar puntuacion de la palabra
-            normal = normal.replaceAll("\\p{Punct}", "")
+            normal = normal.replace("\\p{Punct}".toRegex(), "")
         }
         return normal
     }
@@ -63,29 +69,30 @@ class Archivo
      * el numero de veces que aparece la palabra es el elemento que guarda la llave
      * @return tabla Hash
      */
-    private fun tabla(): Hashtable<String, Integer> {
-        val dicc = Hashtable<String, Integer>()
+    private fun tabla(): Hashtable<String, Int> {
+        val dicc = Hashtable<String, Int>()
         var linea: String? = null
         var palabra: String? = null
         var sToken: StringTokenizer
-        var contador: Integer
-        try {
-            while ((linea = archivo!!.readLine()) != null) {
-                sToken = StringTokenizer(linea)
-                while (sToken.hasMoreTokens()) {
-                    //leer por palaras
-                    palabra = sToken.nextToken()
-                    palabra = normalizarString(palabra)
-                    if (dicc.containsKey(palabra)) {
-                        contador = dicc.get(palabra)
-                        dicc.replace(palabra, contador + 1)
-                    } else {
-                        dicc.put(palabra, 1)
-                    }
+        var contador: Int?
+
+        try{
+        while ({ linea = archivo?.readLine(); linea }() != null) {
+            sToken = StringTokenizer(linea)
+            while (sToken.hasMoreTokens()) {
+                //leer por palaras
+                palabra = sToken.nextToken()
+                palabra = normalizarString(palabra)
+                if (dicc.containsKey(palabra)) {
+                    contador = dicc[palabra]
+                    dicc.replace(palabra, contador!! + 1)
+                } else {
+                    dicc[palabra] = 1
                 }
-            }
-        } catch (e: IOException) {
-            System.out.println("Documento vacio")
+        }
+        }}
+       catch (e: IOException) {
+            println("Documento vacio")
         }
 
         return dicc
@@ -98,34 +105,31 @@ class Archivo
      * @param tabla Hashtable
      * @return lista de objetos palabra en orden descendiente segun el entero que contiene el objeto Palabra
      */
-    private fun listaOrdenada(tabla: Hashtable<String, Integer>): LinkedList<Palabra> {
+    fun listaOrdenada(tabla: Hashtable<String, Int>): LinkedList<Palabra> {
         val lista = LinkedList<Palabra>()
-        val llave = tabla.keys()
-        var cadena: String
-        while (llave.hasMoreElements()) {
-            cadena = llave.nextElement()
-            val palabra = Palabra(cadena, tabla.get(cadena))
-            lista.add(palabra)
 
-        }
-        Collections.sort(lista, Palabra())
+        tabla.forEach { k, v -> lista.add(Palabra(k, v.toInt())) }
+
         return lista
     }
 
     /**
      * Cuenta e numero de veces que aparecen las palabras en el documento
-     * @retunr lista ordenada de manera descendiente segun el numero de veces que aparecen en el documento
+     * @return lista ordenada de manera descendiente segun el numero de veces que aparecen en el documento.
      */
-    fun contador(): LinkedList<Palabra> {
+    fun contador() : LinkedList<Palabra>{
         return listaOrdenada(tabla)
     }
 
     fun totalPalabras(): Int {
-        val llave = this.tabla.keys()
-        var contador = 0
-        while (llave.hasMoreElements()) {
-            contador += this.tabla.get(llave.nextElement())
+        val iterador = contador().listIterator(0)
+        var total = 0
+        while(iterador.hasNext()) {
+            var auxiliar = iterador.next().cantidad
+            total.plus(auxiliar)
         }
-        return contador
+        return total
     }
 }
+
+

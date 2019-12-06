@@ -1,11 +1,15 @@
+import java.*
 import java.util.*
+import java.util.LinkedList
+
+
 
 class Directorio
 /**
  * Constructor de la clase
  * @param lista de cadenas con las rutas de cada archivo
  */
-(rutas: LinkedList<String>?) {
+    (rutas: LinkedList<String>?) {
 
     /**
      * Obtener la lista de archivos
@@ -22,7 +26,7 @@ class Directorio
 
     init {
         if (rutas != null) {
-            val iterador = rutas!!.iterator()
+            val iterador = rutas.iterator()
             val listaA = LinkedList<Archivo>()
             var elemento: String
             var doc: Archivo
@@ -32,30 +36,14 @@ class Directorio
                 doc = Archivo(elemento)
                 listaA.add(doc)
             }
-            indice = rutas!!.element().lastIndexOf("/")
+            indice = rutas.element().lastIndexOf("/")
 
-            this.ruta = rutas!!.element().substring(0, indice)
+            this.ruta = rutas.element().substring(0, indice)
             this.listaArchivos = listaA
         } else {
-            System.out.println("Cadena vacia")
+            println("Cadena vacia")
         }
     }
 
-
-    /**
-     * Cuenta las palabras que estan en cada archivo
-     * @return lista de listas de palabras
-     * cada lista pertenece a un archivo
-     */
-    fun contador(): LinkedList<???> {
-        val listaFinal = LinkedList<LinkedList<Palabra>>()
-        val iterador = listaArchivos!!.iterator()
-        var doc: Archivo
-        while (iterador.hasNext()) {
-            doc = iterador.next() as Archivo
-            listaFinal.add(doc.contador())
-        }
-        return listaFinal
-    }
 }
 

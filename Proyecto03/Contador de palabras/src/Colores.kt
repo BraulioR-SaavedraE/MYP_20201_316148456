@@ -1,5 +1,5 @@
-import java.util.HashSet
 import java.awt.Color
+import java.util.HashSet
 import java.util.Random
 
 class Colores(numero: Int) {
@@ -10,7 +10,7 @@ class Colores(numero: Int) {
         if (numero <= 0)
             throw IllegalArgumentException("Tienes que darme un número válido para la cantidad de colores")
 
-        colores = HashSet<Color>()
+        colores = HashSet()
         iterador = colores.iterator()
 
         val randomGen = Random()

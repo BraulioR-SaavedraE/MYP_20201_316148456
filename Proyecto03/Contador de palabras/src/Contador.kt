@@ -13,7 +13,7 @@ object Contador {
 
         for (x in lista) {
             val enunciado = "La palabra \""
-            reporte += enunciado + x.getPalabra() + "\" aparece " + x.getCantidad() + " veces\n"
+            reporte += enunciado + x.palabra + "\" aparece " + x.cantidad + " veces\n"
         }
 
         return reporte
@@ -23,7 +23,7 @@ object Contador {
         var total = 0
 
         for (x in lista)
-            total += x.getCantidad()
+            total += x.cantidad
 
         return total
     }
